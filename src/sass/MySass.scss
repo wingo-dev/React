@@ -1,0 +1,12 @@
+$mycolor:red;
+$bg: url('../assets/img/bg.jpg');
+h1{
+    color: $mycolor;
+}
+
+body{
+    color: white;
+    background-image: $bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
