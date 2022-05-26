@@ -6,7 +6,10 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+
+
 function App(props) {
+  
   return (
     <div>
       <BrowserRouter>
@@ -21,5 +24,7 @@ function App(props) {
       </BrowserRouter>
     </div>
   );
+  
 }
+
 export default App;

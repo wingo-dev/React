@@ -2,7 +2,7 @@ import Todos from "./Todos";
 import { useState, createContext, useContext } from "react";
 const UserContext = createContext();
 
-const Home = () => {
+const Home = (props) => {
   const [count, setCount] = useState(0);
   const [todos, setTodos] = useState(["todo 1", "todo 2"]);
 
@@ -25,6 +25,9 @@ const Home = () => {
         <h1>Home</h1>
         <Section1 />
         <hr />
+        <div>
+        
+        </div>
         <div>
           Count: {count}
           <button onClick={increment}>+</button>
