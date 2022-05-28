@@ -6,7 +6,7 @@ import { stopAction } from "../actions/stopAction";
 
 
 const Layout = (props) => {
-  console.log(props);
+  // console.log(props);
   return (
     <div>
       

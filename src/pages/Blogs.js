@@ -14,7 +14,7 @@ const Blogs = () => {
       .then((res) => res.json())
       .then((data) => {
         setData(data);
-        console.log(data);
+        // console.log(data);
       });
   }, []);
   return (
